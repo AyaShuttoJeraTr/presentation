@@ -1,0 +1,28 @@
+table {
+  border: 1px solid rgb(140 140 140);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  text-align: left;
+}
+
+th {
+  background-color: aquamarine;
+}
+
+td {
+  width: 400px;
+}
+
+h1::before {
+  content: '';
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-image: url(../_Presentation/hokkaido.png);
+  background-size: contain;
+  vertical-align: middle;
+}
+
