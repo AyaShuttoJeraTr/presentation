@@ -21,7 +21,7 @@ h1::before {
   display: inline-block;
   width: 70px;
   height: 70px;
-  background-image: url(../hokkaido.png);
+  background-image: url(hokkaido.png);
   background-size: contain;
   vertical-align: middle;
 }
